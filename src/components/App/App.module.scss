@@ -1,0 +1,25 @@
+@import "global.module";
+
+body {
+  background: #FBFAF8;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  color: #1C1C1C;
+}
+
+.bodyBackground {
+  position: relative;
+  background-image: url("../../assets/img/bodyFon.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 1000px;
+  padding-bottom: 150px;
+  background-color: #2d3033;
+}
+
+
+
+

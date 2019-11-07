@@ -1,0 +1,9 @@
+@import '../../components/App/variables.module';
+
+.h2 {
+  margin-top: 150px;
+  color: #fff;
+  font: 700 21px "Dikovina", tahoma, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 6px $azure, -2px -2px 6px $azure, -2px 2px 6px $azure, 2px -2px 6px $azure;
+}

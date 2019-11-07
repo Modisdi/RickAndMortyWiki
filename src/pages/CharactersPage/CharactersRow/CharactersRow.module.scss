@@ -1,0 +1,27 @@
+.tr {
+  height: 45px;
+  background: white;
+}
+
+.tr:nth-of-type(2n) {
+  background: #e7f0ff;
+}
+
+.td {
+  padding-left: 20px;
+  vertical-align: middle;
+  color: #475666;
+}
+
+.td:last-child {
+  padding-right: 20px;
+}
+
+.open {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.openIcon {
+  cursor: pointer;
+}

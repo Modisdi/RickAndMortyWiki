@@ -1,0 +1,55 @@
+@import '../../components/App/variables.module';
+
+.characterWrapper {
+  position: relative;
+  margin-top: 382px;
+  padding: 40px 55px;
+  height: 330px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+}
+
+
+.linkBack{
+  top: -46px;
+  left: 15px;
+  position: absolute;
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.avatar {
+  border: 3px solid $azure;
+  border-radius: 50%;
+  width: 210px;
+  height: 210px;
+}
+
+.wrapper {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+}
+
+.title {
+  font-size: 19px;
+  width: 180px;
+  display: block;
+  font-weight: 500;
+  color: $azure;
+}
+
+.span {
+  font-size: 16px;
+  width: 280px;
+  display: block;
+}
+
